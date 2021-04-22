@@ -1,6 +1,7 @@
 # XboxAPI
 
 An API wrapper for XAPI Service.
+
 [![NPM](https://nodei.co/npm/@shadow/xapi.png)](https://nodei.co/npm/@shadow/xapi/)
 
 # Installing
@@ -10,21 +11,21 @@ An API wrapper for XAPI Service.
 # Usage
 
 ```js
-const XapiClient = require("@shadow/xapi");
+const { XapiClient } = require("@shadow/xapi");
 const xapi = new XapiClient();
 ```
 
 # Example
 
 ```js
-const XapiClient = require("@shadow/xapi");
+const { XapiClient } = require("@shadow/xapi");
 const xapi = new XapiClient();
 
-async function find(query) {
-  let req = await xapi.gamertag(query);
-  return console.log(req);
+async function gamertag(query) {
+  const req = await xapi.gamertag(query);
+  return req
 }
-find("2535412670012736");
+gamertag("2535412670012736");
 ```
 
 # Functions

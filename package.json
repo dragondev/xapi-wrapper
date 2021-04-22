@@ -1,6 +1,6 @@
 {
   "name": "@shadow/xapi",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "Javascript wrapper for XAPI's API",
   "main": "src/index.js",
   "scripts": {
@@ -8,10 +8,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/dragondev/XboxAPI-Wrapper"
+    "url": "https://github.com/dragondev/xapi-wrapper"
   },
   "author": "dragonblitz10",
-  "license": "BSD-3-Clause",
   "dependencies": {
     "centra": "^2.4.2"
   },
